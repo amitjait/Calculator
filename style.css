@@ -1,0 +1,28 @@
+button{
+    width: 5rem;
+    height: 5rem;
+    margin: 0px;
+    background-color: white;
+    border-width: 0.5px;
+}
+.result{
+    margin-top: 2rem;
+    height: 5rem;
+    width: 20rem;
+    border: 0.5px solid black;
+    font-size: 30px;   
+}
+.rPara{
+    display: flex;
+    float: inline-end;
+}
+.container div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px auto;    
+}
+button:hover{
+    background-color: rgb(246, 246, 246);
+    cursor: pointer;
+}
