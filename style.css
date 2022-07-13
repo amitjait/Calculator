@@ -4,13 +4,14 @@ button{
     margin: 0px;
     background-color: white;
     border-width: 0.5px;
+    font-size: 20px;
 }
 .result{
     margin-top: 2rem;
     height: 5rem;
     width: 20rem;
     border: 0.5px solid black;
-    font-size: 30px;   
+    font-size: 25px;   
 }
 .rPara{
     display: flex;
