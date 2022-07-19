@@ -7,11 +7,25 @@ button{
     font-size: 20px;
 }
 .result{
+    
     margin-top: 2rem;
     height: 5rem;
     width: 20rem;
     border: 0.5px solid black;
-    font-size: 25px;   
+    font-size: 25px;
+    text-align: right;   
+    align-self: center;
+}
+.input{
+    
+    margin: 2rem auto;
+    height: 5rem;
+    width: 20rem;
+    border: 0.5px solid black;
+    font-size: 25px;
+    text-align: right;   
+    align-self: center;
+    outline: none;
 }
 .rPara{
     display: flex;
