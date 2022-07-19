@@ -1,9 +1,9 @@
 const equalBtn = document.getElementById('equal');
 const clear = document.getElementById('clear');
 let val = document.getElementById("input").value;
-let btn = document.getElementsByClassName("btn");
+var btn = document.getElementsByClassName("btn");
 
-console.log(btn);
+console.log(btn.length);
 // function myClick(){
 //     document.getElementById("input").value = "Enter";
 // }
@@ -19,11 +19,11 @@ clear.addEventListener('click', ()=>{
     document.getElementById("input").value = "";
 });
 
-
-btn.forEach((button) => {
-    button.addEventListener('click', ()=>{
-        let btnInput = button.value;
-        document.getElementById("input").value += btnInput;
-    })
-});
-
+console.log(btn[1].value);
+for(var i=0; i<btn.length; i++){
+    let btnVal = btn[i].value;
+    btn[i].addEventListener('click', () => {
+        
+        document.getElementById("input").value += btnVal;
+    });
+}
